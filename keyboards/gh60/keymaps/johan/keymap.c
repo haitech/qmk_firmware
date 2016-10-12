@@ -28,11 +28,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   },
     /* 2: fn1 */
 	[_SYS] = {
-    { KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL   },
+    { KC_GRV,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, RESET    },
     { _______, KC_BTN1, KC_MS_U, KC_BTN2, KC_WH_D, _______, _______, _______, KC_UP,   _______, _______, _______, _______, _______, },
     { _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_U, _______, KC_BSPC, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, XXXXXXX, _______, },
-    { _______, XXXXXXX, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, XXXXXXX, KC_RSFT, },
-    { _______, _______, _______, XXXXXXX, XXXXXXX, RESET, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, _______  }
+    { _______, XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, _______, XXXXXXX, KC_RSFT, },
+    { _______, _______, _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, _______  }
   },
 };
 
