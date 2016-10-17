@@ -8,6 +8,7 @@ enum keyboard_layers_macros {
   // Macros
   MACRO_N
 };
+#define SPC_FN LT(LAYER_ARROW, KC_SPC)
 
 // Fillers to make layering more clear
 #define _______ KC_TRNS
@@ -20,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     { KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,   KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS },
     { KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,   KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, XXXXXXX, KC_ENT  },
     { KC_LSFT, XXXXXXX, KC_Z,    KC_X,    KC_C,    KC_V,   KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, XXXXXXX, KC_RSFT },
-    { M(LAYER_ARROW),   KC_LALT, KC_LGUI, XXXXXXX, XXXXXXX, KC_SPC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RGUI, KC_RALT, KC_APP, M(LAYER_SYS) }
+    { M(LAYER_ARROW),   KC_LALT, KC_LGUI, XXXXXXX, XXXXXXX, SPC_FN, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RGUI, KC_RALT, KC_APP, M(LAYER_SYS) }
   },
     /* 1: fn0 */
 	[LAYER_ARROW] = {
