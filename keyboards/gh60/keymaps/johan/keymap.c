@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     { _______, KC_BTN1, KC_MS_U, KC_BTN2, KC_WH_D, _______, _______, _______, KC_UP,   _______, _______, _______, _______, _______, },
     { _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_U, _______, KC_BSPC, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, XXXXXXX, _______, },
     { KC_LSFT, XXXXXXX, _______, _______, _______, _______, _______, M(MACRO_N)   , _______, _______, _______, _______, XXXXXXX, KC_RSFT, },
-    { _______, _______, _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, _______  }
+    { _______, _______, _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_ACL1, _______, _______, _______  }
   },
     /* 2: fn1 */
 	[LAYER_SYS] = {
