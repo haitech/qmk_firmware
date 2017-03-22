@@ -6,5 +6,7 @@
 //#define LEADER_TIMEOUT 300
 #define BACKLIGHT_BREATHING
 
+#define USER_PRINT
+
 #endif
 
