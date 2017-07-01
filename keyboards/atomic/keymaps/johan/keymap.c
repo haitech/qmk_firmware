@@ -25,7 +25,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    { KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,  KC_ENT,  KC_PGUP  },
    { KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_RSFT, KC_UP,   KC_PGDN  },
    //{ M(ARR),  KC_LALT, XXXXXXX, KC_LGUI, XXXXXXX, XXXXXXX, SPC_FN, XXXXXXX,  XXXXXXX, XXXXXXX, KC_RGUI, M(SYS),  KC_LEFT, KC_DOWN, KC_RGHT  },
-   { M(T1),   M(T2),   M(T3),   M(T4),   M(T5), M(T6), SPC_FN, XXXXXXX,  XXXXXXX, XXXXXXX, KC_RGUI, M(SYS),  KC_LEFT, KC_DOWN, KC_RGHT  },
+   { KC_0,    KC_1,    KC_2,    KC_3,    KC_4, SPC_FN, XXXXXXX,  XXXXXXX, XXXXXXX, KC_RGUI, M(SYS),  KC_LEFT, KC_DOWN, KC_RGHT  },
+   // col1 & col4 works col0 & col3 doesnt!
   },
   
   [ARR] = { /* LAYER_ARROW */
